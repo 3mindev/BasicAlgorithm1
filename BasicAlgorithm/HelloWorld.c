@@ -1,3 +1,6 @@
+//reduction
+//http://119.201.123.184/30stair/reduction/reduction.php?pname=reduction
+
 #include <stdio.h>
 #include <math.h>
 
@@ -47,7 +50,8 @@ int main()
 		answer4 = answer3;
 		answer3 = temp;
 	}
-	printf("%.2f%", answer4);
+
+	printf("%.1f%%", answer4);
 
 	scanf("%d", &answer4);
 	return 0;
